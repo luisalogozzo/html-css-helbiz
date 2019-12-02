@@ -174,9 +174,12 @@ header {
     padding: 40px 5px;
   }
 
+  .helbiz_bike p {
+    font-size: 1.7em;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body {
     font-size: 8px;
   }
@@ -203,5 +206,9 @@ header {
   }
   .jumbo_text a img {
     width: 100%;
+  }
+
+  .helbiz_bike {
+    padding: 0;
   }
 }
