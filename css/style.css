@@ -102,11 +102,12 @@ header {
   text-align: center;
   /* background-color: #FAFAFA; */
   padding: 25px;
+  position: relative;
 }
 
 .helbiz_bike_wrap {
   background-color: #FAFAFA;
-  padding: 25px;
+  padding: 40px 40px;
 }
 
 .helbiz_bike img:first-of-type {
@@ -123,26 +124,31 @@ header {
 .helbiz_bike img:last-of-type {
   width: 200px;
   height: auto;
+  margin-top: 50px;
 }
 
-.helbiz_bike a {
+.learn_more {
+  position: absolute;
+  left: 50%;
+  transform: translate( -50%);
+  margin: 15px auto;
+}
+
+.helbiz_bike .learn_more a {
   position: relative;
   font-size: 2em;
   display: block;
-  margin: 15px auto;
   color: #0070c8;
   text-decoration: none;
 }
 
-.helbiz_bike a:after {
+.helbiz_bike .learn_more a:after {
     content: url(https://helbiz.com/asset/pages/newhome/images/Arrow.svg);
     width: 50px;
     position: absolute;
     top: 0px;
-    right: 145px;
+    right: -40px;
 }
-
-
 
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -162,6 +168,12 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+
+  .helbiz_bike_wrap {
+
+    padding: 40px 5px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
