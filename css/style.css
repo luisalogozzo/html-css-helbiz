@@ -106,7 +106,7 @@ header {
 
 .helbiz_bike_wrap {
   background-color: #FAFAFA;
-  padding: 40px 40px;
+  /* padding: 40px 40px; */
 }
 
 .helbiz_bike img:first-of-type {
@@ -116,7 +116,7 @@ header {
 
 
 .helbiz_bike p {
-  font-size: 2em;
+  font-size: 1.8em;
   margin: 15px auto;
 }
 
@@ -143,10 +143,10 @@ header {
 
 .helbiz_bike .learn_more a:after {
     content: url(https://helbiz.com/asset/pages/newhome/images/Arrow.svg);
-    width: 50px;
+    /* width: 50px;
     position: absolute;
     top: 0px;
-    right: -40px;
+    right: -40px; */
 }
 
 
@@ -215,14 +215,14 @@ header {
     width: 100%;
   }
 
-  .helbiz_bike_wrap {
+  /* .helbiz_bike_wrap {
 
     padding: 40px 5px;
   }
 
   .helbiz_bike p {
     font-size: 1.7em;
-  }
+  } */
 }
 
 @media screen and (max-width: 767px) {
